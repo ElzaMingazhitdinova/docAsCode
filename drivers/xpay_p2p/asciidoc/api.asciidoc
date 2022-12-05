@@ -1,6 +1,6 @@
-[.lead]
-  API for P2P in KH [d]
-= API reference
+= API for P2P in KH [d]
+
+### API reference
 https://bo.transfer1515.com/apidoc/XPayDeposit_EN.html
 
 ### Status model
