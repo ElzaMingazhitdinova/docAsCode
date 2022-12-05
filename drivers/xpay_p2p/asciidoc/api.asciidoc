@@ -5,7 +5,10 @@ https://bo.transfer1515.com/apidoc/XPayDeposit_EN.html
 
 ### Status model
 
-| Provider |   Gatech   | Comment |
-|----------|:----------:|---------|
-| 001      | Processing |         |
-| 111      |  Accepted  |         |
+[width="50%",cols=">s,^m,e",frame="topbot",options="header"]
+|==========================
+|Provider|Gatech 2|
+|001       |Processing
+|111       |Accepted
+|==========================
+
