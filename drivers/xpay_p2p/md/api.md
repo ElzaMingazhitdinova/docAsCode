@@ -21,10 +21,10 @@ Creating the signature string (SHA1 Hash):
 3. All values and keys used in the signature string are as is. Please do not perform URL encoding on these strings.
 
 Example:<br/>
->input string <br/>
+>**input string** <br/>
 partner_code=EX00001&partner_orderid=asd993asda&member_id=member123&currency=JPY&amount=1000000&account_name=黄晓明&bank_code=MMJJP&notify_url=https://leshukov.free.beeceptor.com&key=XXXXXXX<br/>
-output string <br/>
-'739F9D3A01910AB4807ECE440A418FA003833017'
+**output string** <br/>
+739F9D3A01910AB4807ECE440A418FA003833017
 
 ### Description of requests
 #### Request ‘Create a new deposit'
