@@ -2,9 +2,9 @@
 |===
 |ID |Description |Reference
 
-|Column 1, row 1
-|Column 2, row 1
-|Column 3, row 1
+|FR-1
+|Merchant method - https://backoffice.stage.gt.env/methods/show
+
 
 |Column 1, row 2
 |Column 2, row 2
