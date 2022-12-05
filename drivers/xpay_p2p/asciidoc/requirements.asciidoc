@@ -2,23 +2,10 @@
 |===
 |ID |Description |Reference
 
-|FR-1
-|Merchant method - https://backoffice.stage.gt.env/methods/show
 
-
-|Column 1, row 2
-|Column 2, row 2
-|Column 3, row 2
-
-|Column 1, row 3
-|Column 2, row 3
-|Column 3, row 3
-
-|Column 1, row 4
-|Column 2, row 4
-|Column 3, row 4
-
-|Column 1, row 5
-|Column 2, row 5
-|Column 3, row 5
-|===
+[width="15%"]
+|=======
+|*ID* |Description |Reference
+|FR.1 |Merchant method - https://backoffice.stage.gt.env/methods/show
+|FR.2 |Provider channel - https://backoffice.stage.gt.env/channels/6797/show
+|=======
