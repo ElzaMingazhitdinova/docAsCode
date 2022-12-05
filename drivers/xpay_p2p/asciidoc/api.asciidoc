@@ -25,11 +25,18 @@ Creating the signature string (SHA1 Hash):
 
 Example:
 [source,python]
-input string
+*input string*
 partner_code=EX00001&partner_orderid=asd993asda&member_id=member123&currency=JPY&amount=1000000&account_name=黄晓明&bank_code=MMJJP&notify_url=https://leshukov.free.beeceptor.com&key=XXXXXXX<br/>
-output string
+*output string*
 739F9D3A01910AB4807ECE440A418FA003833017
 
 ### Description of requests
 #### Request ‘Create a new deposit'
 ##### Description of request
+
+[width="15%"]
+|=======
+|*URL* |*https://www.paymentonline515.com/fundtransfer.php* |
+|001 |Processing
+|111 |Accepted
+|=======
