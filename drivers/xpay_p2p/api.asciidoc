@@ -1,0 +1,11 @@
+[.lead]
+  API for P2P in KH [d]
+= API reference
+https://bo.transfer1515.com/apidoc/XPayDeposit_EN.html
+
+### Status model
+
+| Provider |   Gatech   | Comment |
+|----------|:----------:|---------|
+| 001      | Processing |         |
+| 111      |  Accepted  |         |
