@@ -9,7 +9,6 @@
 | FR.5.1 |           System shall return the following title on the form: "Make a deposit"            |               |
 
 <div hidden>
-```
 @startuml ErrorDiagram
 !pragma useVerticalIf on
 start
@@ -24,7 +23,6 @@ if (http_code == 2XX?) then (no)
 :Move to Fail and send msg to sentry;
 stop
 @enduml
-```
 </div>
 
 ![](ErrorDiagram.svg)
