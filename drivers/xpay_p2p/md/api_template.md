@@ -1,11 +1,11 @@
 #  API for P2P in KH [d] 
-### API reference
+## API reference
 _link to the API and another useful documentation_
 
-### Integration flow
+## Integration flow
 _describe the sequence of requests and user steps_
 
-### Status model
+## Status model
 
 | Provider |   Exness   |
 |----------|:----------:|
@@ -13,23 +13,25 @@ _describe the sequence of requests and user steps_
 |          |  Accepted  |
 |          |   Failed   |
 
-### Credentials
+## Credentials
 >_merchant_api: <br/>
 merchant_key:_ 
 
 #### Merchant area
 _link to the provider's merchant area_
-
 #### Sandbox
 _all data for the test environment (url, credentials and so on)_
+
 
 ### Signature
 _describe the signature for the requests_
 
-### Description of requests
+
+## Description of requests
 #### List of constants
 > _place here constants_
-### Request 'Create a new deposit/withdrawal'
+
+## Request 'Create a new deposit/withdrawal'
 ##### Description of request
 
 | **URL**      | **** |
@@ -44,40 +46,42 @@ _describe the signature for the requests_
 |               |          |                 |
 |               |          |                 |
 
-##### Example of request
+### Example of request
 >place here example
 
- ##### Description of response
+ #### Description of response
 | **Parameter** | **Type** | **Description** |
 |---------------|:--------:|-----------------|
 |               |          |                 |
 |               |          |                 |
 |               |          |                 |
 
-##### Example of response
+### Example of response
 Successfull response
 > _place here example_
 
 Unsuccessfull response
 > _place here example_
 
-### Callback
-#### Callback signature
+## Callback
+### Callback signature
 _description of callback signature_
-#### Description of a callback
+
+### Description of a callback
 | **Parameter** | **Type** | **Description** |
 |---------------|:--------:|-----------------|
 |               |          |                 |
 |               |          |                 |
 |               |          |                 |
 
-#### Example callback
+### Example callback
 Successful callback
 >  {
    "amount":1000,
    "currency":"USD",
    "livemode":false
 }
+
 
 Unsuccessful callback
 >  {
@@ -99,8 +103,8 @@ Example response
    "currency":"USD",
    "livemode":false
 }
-### Request 'Get status'
-#### Description of request
+## Request 'Get status'
+### Description of request
 | **URL**      | **** |
 |--------------|:----:|
 | HTTP Method  |      |
@@ -113,10 +117,10 @@ Example response
 |               |          |                 |
 |               |          |                 |
 
-#### Example of request
+### Example of request
 > place here the example
 
-#### Description of response
+### Description of response
 
 | **Parameter** | **Type** | **Description** |
 |---------------|:--------:|-----------------|
@@ -124,7 +128,7 @@ Example response
 |               |          |                 |
 |               |          |                 |
 
-#### Example response
+### Example response
 Successful response
 >  {
    "amount":1000,
