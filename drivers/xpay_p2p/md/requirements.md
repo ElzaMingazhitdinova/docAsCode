@@ -8,21 +8,4 @@
 | FR.5   | System shall pre-fill the form according to the last accepted deposit invoice of the user. |               |
 | FR.5.1 |           System shall return the following title on the form: "Make a deposit"            |               |
 
-<div hidden>
-@startuml ErrorDiagram
-!pragma useVerticalIf on
-start
-:Create a Deposit;
-if (http_code == 2XX?) then (no)
- :Move to Fail;
- stop
- elseif (Did we get redirect URL?) then (yes);
-  :Go to the next step;
-  stop
- else (no) 
-:Move to Fail and send msg to sentry;
-stop
-@enduml
-</div>
-
-![](ErrorDiagram.svg)
+![![ErrorDiagram.svg](https://github.com/ElzaMingazhitdinova/docAsCode/blob/main/drivers/xpay_p2p/md/errorDiagram.iuml)
