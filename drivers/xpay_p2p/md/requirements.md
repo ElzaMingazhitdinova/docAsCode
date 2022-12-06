@@ -8,4 +8,4 @@
 | FR.5   | System shall pre-fill the form according to the last accepted deposit invoice of the user. |               |
 | FR.5.1 |           System shall return the following title on the form: "Make a deposit"            |               |
 
-![![ErrorDiagram.svg](https://github.com/ElzaMingazhitdinova/docAsCode/blob/main/drivers/xpay_p2p/md/errorDiagram.iuml)
+![ErrorDiagram](https://github.com/ElzaMingazhitdinova/docAsCode/blob/main/drivers/xpay_p2p/md/errorDiagram.iuml)
