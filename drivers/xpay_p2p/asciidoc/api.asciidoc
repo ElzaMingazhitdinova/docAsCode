@@ -13,7 +13,7 @@ https://bo.transfer1515.com/apidoc/XPayDeposit_EN.html
 |=======
 
 ### Credentials
->merchant_api: super_merchant<br/>
+merchant_api: super_merchant<br/>
 merchant_key: super_key
 
 ### Signature
