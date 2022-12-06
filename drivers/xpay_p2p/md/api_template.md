@@ -90,7 +90,7 @@ Unsuccessful callback
    "livemode":false
 }
 
-#### Description of response to callback
+### Description of response to callback
 | **Parameter** | **Type** | **Description** |
 |---------------|:--------:|-----------------|
 |               |          |                 |
