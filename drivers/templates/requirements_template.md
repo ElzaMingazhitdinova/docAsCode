@@ -1,0 +1,15 @@
+#  Requirements for P2P in KH [d] 
+| **ID** |                                                                                                                    **Description**                                                                                                                    | **Reference** |
+|--------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|---------------|
+| FR.1   |                                                                            Merchant method -{} </br> Provider channel {URL to psp-team BO} </br> MID {URL to psp-team BO}                                                                             |               |
+| FR.2   | Requirements for the payment flow </br> Payment flow type: </br> REDIRECT </br> FINAL FORM</br> COLLECT DATA + REDIRECT</br> COLLECT DATA + FINAL FORM</br> S2S (direct)</br> СС (cards)</br> Collect data can be:</br> ONE STEP</br> MULTI-STEP</br> |               |
+ | FR.3   |                                                                                                                   **Routing rules**                                                                                                                   |               |
+| FR.4   |                                                                                           **Requirements for the first step of [payment][withdrawal] form**                                                                                           |               |
+| FR     |                                                                       System shall pre-fill the form according to the last accepted [deposit][withdrawal] invoice of the user.                                                                        |               |
+| FR     |                                                                                         System shall return the following title on the form: "Make a deposit"                                                                                         |               |System shall return the disclaimer with the following text on the form: “If you did not receive the PUSH confirmation please complete the payment by dial 1234 ”
+|        |                                                                 System shall return the following fields on the form:</br> Bank name </br> Account number </br> Account name    </br>                                                                 |               |Requirements for the field ‘Bank name’ >{
+                'name': 'bank_code',
+                'title': 'Bank name',
+                'type': 'select',
+                'options': await self.get_banks()
+            }
