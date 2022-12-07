@@ -132,3 +132,10 @@ _If there is no follow_status, clarify that explicitly_
 For example: </br>
 * merchant_id and merchant_password in the ‘Create a new deposit’ request
 * token the ‘Get JWT token’ response
+---
+**FR.9** **Requirements for the provider’s side on mobile devices** </br>
+_If any function need to be checked on WebView, iOS here details.
+Example: When the client clicks the button ‘Download’ System shell save picture in gallery_
+
+# Non-functional requirements
+**NFR.1** UI should has localization into English (en) and {additional language code}
