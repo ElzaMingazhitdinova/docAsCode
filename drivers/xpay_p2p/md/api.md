@@ -39,14 +39,7 @@ partner_code=EX00001&partner_orderid=asd993asda&member_id=member123&currency=JPY
 | notify_url    | String(255) | This is the URL that will be used to notify of successful transactions status            | callback_url            |
 | partner_code  |  String(7)  | The partner code assigned in the system. The code is normally 7 alphanumeric characters. | credentials.merchant_id |
 | member_id     |  String(35  | The member that is currently doing the transaction name                                  | invoice.client_id       |
-
-### **Example of request**
->merchant_api: super_merchant <br/>
-merchant_key: super_key<br/>
-curl --location --request POST 'https://www.paymentonline515.com/fundtransfer.php' \
---header 'Content-Type: application/x-www-form-urlencoded' \
---data-urlencode 'partner_code=EX00001' \
---data-urlencode 'partner_orderid=asd993asda' \
+' \
 --data-urlencode 'member_id=member123' \
 --data-urlencode 'currency=JPY' \
 --data-urlencode 'amount=1000000' \
